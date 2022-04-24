@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -106,6 +108,119 @@ class MatchFoot
     public function __construct()
     {
         $this->diffuseur = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
+    public function getJournee(): ?string
+    {
+        return $this->journee;
+    }
+
+    public function setJournee(string $journee): self
+    {
+        $this->journee = $journee;
+
+        return $this;
+    }
+
+    public function getDateHeure(): ?\DateTimeInterface
+    {
+        return $this->dateHeure;
+    }
+
+    public function setDateHeure(?\DateTimeInterface $dateHeure): self
+    {
+        $this->dateHeure = $dateHeure;
+
+        return $this;
+    }
+
+    public function getScore(): ?ScoreMatch
+    {
+        return $this->score;
+    }
+
+    public function setScore(?ScoreMatch $score): self
+    {
+        $this->score = $score;
+
+        return $this;
+    }
+
+    public function getDomicile(): ?Club
+    {
+        return $this->domicile;
+    }
+
+    public function setDomicile(?Club $domicile): self
+    {
+        $this->domicile = $domicile;
+
+        return $this;
+    }
+
+    public function getSaison(): ?Saison
+    {
+        return $this->saison;
+    }
+
+    public function setSaison(?Saison $saison): self
+    {
+        $this->saison = $saison;
+
+        return $this;
+    }
+
+    public function getCompetition(): ?Competition
+    {
+        return $this->competition;
+    }
+
+    public function setCompetition(?Competition $competition): self
+    {
+        $this->competition = $competition;
+
+        return $this;
+    }
+
+    public function getExterieur(): ?Club
+    {
+        return $this->exterieur;
+    }
+
+    public function setExterieur(?Club $exterieur): self
+    {
+        $this->exterieur = $exterieur;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Diffuseur>
+     */
+    public function getDiffuseur(): Collection
+    {
+        return $this->diffuseur;
+    }
+
+    public function addDiffuseur(Diffuseur $diffuseur): self
+    {
+        if (!$this->diffuseur->contains($diffuseur)) {
+            $this->diffuseur[] = $diffuseur;
+        }
+
+        return $this;
+    }
+
+    public function removeDiffuseur(Diffuseur $diffuseur): self
+    {
+        $this->diffuseur->removeElement($diffuseur);
+
+        return $this;
     }
 
 }

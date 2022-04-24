@@ -55,5 +55,58 @@ class CartonMatch
      */
     private $joueur;
 
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
+    public function getMinute(): ?int
+    {
+        return $this->minute;
+    }
+
+    public function setMinute(int $minute): self
+    {
+        $this->minute = $minute;
+
+        return $this;
+    }
+
+    public function getCouleur(): ?string
+    {
+        return $this->couleur;
+    }
+
+    public function setCouleur(string $couleur): self
+    {
+        $this->couleur = $couleur;
+
+        return $this;
+    }
+
+    public function getMatch(): ?MatchFoot
+    {
+        return $this->match;
+    }
+
+    public function setMatch(?MatchFoot $match): self
+    {
+        $this->match = $match;
+
+        return $this;
+    }
+
+    public function getJoueur(): ?Joueur
+    {
+        return $this->joueur;
+    }
+
+    public function setJoueur(?Joueur $joueur): self
+    {
+        $this->joueur = $joueur;
+
+        return $this;
+    }
+
 
 }

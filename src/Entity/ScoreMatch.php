@@ -42,5 +42,46 @@ class ScoreMatch
      */
     private $joue;
 
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
+    public function getButsDomicile(): ?int
+    {
+        return $this->butsDomicile;
+    }
+
+    public function setButsDomicile(int $butsDomicile): self
+    {
+        $this->butsDomicile = $butsDomicile;
+
+        return $this;
+    }
+
+    public function getButsExterieur(): ?int
+    {
+        return $this->butsExterieur;
+    }
+
+    public function setButsExterieur(int $butsExterieur): self
+    {
+        $this->butsExterieur = $butsExterieur;
+
+        return $this;
+    }
+
+    public function getJoue(): ?bool
+    {
+        return $this->joue;
+    }
+
+    public function setJoue(bool $joue): self
+    {
+        $this->joue = $joue;
+
+        return $this;
+    }
+
 
 }

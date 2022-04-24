@@ -51,5 +51,46 @@ class JoueurComposition
      */
     private $poste;
 
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
+    public function getComposition(): ?Composition
+    {
+        return $this->composition;
+    }
+
+    public function setComposition(?Composition $composition): self
+    {
+        $this->composition = $composition;
+
+        return $this;
+    }
+
+    public function getJoueur(): ?Joueur
+    {
+        return $this->joueur;
+    }
+
+    public function setJoueur(?Joueur $joueur): self
+    {
+        $this->joueur = $joueur;
+
+        return $this;
+    }
+
+    public function getPoste(): ?PosteFormation
+    {
+        return $this->poste;
+    }
+
+    public function setPoste(?PosteFormation $poste): self
+    {
+        $this->poste = $poste;
+
+        return $this;
+    }
+
 
 }

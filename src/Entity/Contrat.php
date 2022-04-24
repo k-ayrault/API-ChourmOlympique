@@ -69,5 +69,82 @@ class Contrat
      */
     private $joueur;
 
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
+    public function getDebut(): ?\DateTimeInterface
+    {
+        return $this->debut;
+    }
+
+    public function setDebut(\DateTimeInterface $debut): self
+    {
+        $this->debut = $debut;
+
+        return $this;
+    }
+
+    public function getFin(): ?\DateTimeInterface
+    {
+        return $this->fin;
+    }
+
+    public function setFin(\DateTimeInterface $fin): self
+    {
+        $this->fin = $fin;
+
+        return $this;
+    }
+
+    public function getDetailTransfert(): ?string
+    {
+        return $this->detailTransfert;
+    }
+
+    public function setDetailTransfert(?string $detailTransfert): self
+    {
+        $this->detailTransfert = $detailTransfert;
+
+        return $this;
+    }
+
+    public function getHorsClub(): ?bool
+    {
+        return $this->horsClub;
+    }
+
+    public function setHorsClub(bool $horsClub): self
+    {
+        $this->horsClub = $horsClub;
+
+        return $this;
+    }
+
+    public function getClub(): ?Club
+    {
+        return $this->club;
+    }
+
+    public function setClub(?Club $club): self
+    {
+        $this->club = $club;
+
+        return $this;
+    }
+
+    public function getJoueur(): ?Joueur
+    {
+        return $this->joueur;
+    }
+
+    public function setJoueur(?Joueur $joueur): self
+    {
+        $this->joueur = $joueur;
+
+        return $this;
+    }
+
 
 }

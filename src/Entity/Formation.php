@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -49,6 +51,47 @@ class Formation
     public function __construct()
     {
         $this->posteFormation = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
+    public function getIntitule(): ?string
+    {
+        return $this->intitule;
+    }
+
+    public function setIntitule(string $intitule): self
+    {
+        $this->intitule = $intitule;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, PosteFormation>
+     */
+    public function getPosteFormation(): Collection
+    {
+        return $this->posteFormation;
+    }
+
+    public function addPosteFormation(PosteFormation $posteFormation): self
+    {
+        if (!$this->posteFormation->contains($posteFormation)) {
+            $this->posteFormation[] = $posteFormation;
+        }
+
+        return $this;
+    }
+
+    public function removePosteFormation(PosteFormation $posteFormation): self
+    {
+        $this->posteFormation->removeElement($posteFormation);
+
+        return $this;
     }
 
 }
