@@ -11,7 +11,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
  * Joueur
  *
  * @ORM\Table(name="joueur")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="App\Repository\JoueurRepository")
  */
 class Joueur
 {

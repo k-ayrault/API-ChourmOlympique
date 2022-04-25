@@ -2,7 +2,9 @@
 
 namespace App\Controller;
 
+use App\Entity\JoueurDuJour;
 use App\Repository\JoueurDuJourRepository;
+use App\Repository\JoueurRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -36,5 +38,32 @@ class ApiController extends AbstractController
         $joueurDuJour = $joueurDuJourRepository->findBy(['date' => new \DateTime()]);
         $joueurDuJour = $serializer->serialize($joueurDuJour, "json", ["groups" => ["joueur_du_jour","joueur", "pays"]]);
         return $this->json($joueurDuJour);
+    }
+
+    /**
+     * @Route("/joueur_du_jour/creer", name="api_creer_joueur_du_jour")
+     */
+    public function creer(JoueurDuJourRepository $joueurDuJourRepository, JoueurRepository $joueurRepository) : Response
+    {
+        $joueurDuJour = $joueurDuJourRepository->findBy(['date' => new \DateTime('tomorrow')]);
+
+        $retour = [];
+
+        //  Si déjà un joueur pour ce jour
+        if ($joueurDuJour) {
+            $retour["status"] = "Erreur";
+            $retour["message"] = "Déjà un joueur dédié pour aujourd'hui";
+        } //    Sinon
+        else {
+            $joueur = $joueurRepository->findPasEncoreJoueurDuJour();
+            $joueurDuJour = new JoueurDuJour();
+            $joueurDuJour->setDate(new \DateTime('tomorrow'));
+            $joueurDuJour->setJoueur($joueurRepository->find($joueur));
+            $joueurDuJourRepository->add($joueurDuJour);
+            $retour["status"] = "DONE";
+            $retour["message"] = "Un joueur a correctement été dédié à aujourd'hui";
+        }
+
+        return $this->json($retour);
     }
 }
