@@ -61,58 +61,5 @@ class CompositionProbable
      */
     private $club;
 
-    public function getId(): ?int
-    {
-        return $this->id;
-    }
-
-    public function getMatch(): ?MatchFoot
-    {
-        return $this->match;
-    }
-
-    public function setMatch(?MatchFoot $match): self
-    {
-        $this->match = $match;
-
-        return $this;
-    }
-
-    public function getFormation(): ?Formation
-    {
-        return $this->formation;
-    }
-
-    public function setFormation(?Formation $formation): self
-    {
-        $this->formation = $formation;
-
-        return $this;
-    }
-
-    public function getJournal(): ?Journal
-    {
-        return $this->journal;
-    }
-
-    public function setJournal(?Journal $journal): self
-    {
-        $this->journal = $journal;
-
-        return $this;
-    }
-
-    public function getClub(): ?Club
-    {
-        return $this->club;
-    }
-
-    public function setClub(?Club $club): self
-    {
-        $this->club = $club;
-
-        return $this;
-    }
-
 
 }

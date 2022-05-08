@@ -28,22 +28,5 @@ class Saison
      */
     private $annee;
 
-    public function getId(): ?int
-    {
-        return $this->id;
-    }
-
-    public function getAnnee(): ?string
-    {
-        return $this->annee;
-    }
-
-    public function setAnnee(string $annee): self
-    {
-        $this->annee = $annee;
-
-        return $this;
-    }
-
 
 }

@@ -90,6 +90,14 @@ class Joueur
     private $pays;
 
     /**
+     * @var \Contrat
+     *
+     * @Groups({"joueur"})
+     * @ORM\OneToMany(targetEntity="App\Entity\Contrat", mappedBy="joueur")
+     */
+    private $contrats;
+
+    /**
      * Constructor
      */
     public function __construct()
@@ -213,5 +221,14 @@ class Joueur
 
         return $this;
     }
+
+    /**
+     * @return Collection<int, Groupe>
+     */
+    public function getContrats(): Collection
+    {
+        return $this->contrats;
+    }
+
 
 }

@@ -2,8 +2,6 @@
 
 namespace App\Entity;
 
-use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -64,59 +62,6 @@ class Groupe
     public function __construct()
     {
         $this->joueur = new \Doctrine\Common\Collections\ArrayCollection();
-    }
-
-    public function getId(): ?int
-    {
-        return $this->id;
-    }
-
-    public function getMatch(): ?MatchFoot
-    {
-        return $this->match;
-    }
-
-    public function setMatch(?MatchFoot $match): self
-    {
-        $this->match = $match;
-
-        return $this;
-    }
-
-    public function getClub(): ?Club
-    {
-        return $this->club;
-    }
-
-    public function setClub(?Club $club): self
-    {
-        $this->club = $club;
-
-        return $this;
-    }
-
-    /**
-     * @return Collection<int, Joueur>
-     */
-    public function getJoueur(): Collection
-    {
-        return $this->joueur;
-    }
-
-    public function addJoueur(Joueur $joueur): self
-    {
-        if (!$this->joueur->contains($joueur)) {
-            $this->joueur[] = $joueur;
-        }
-
-        return $this;
-    }
-
-    public function removeJoueur(Joueur $joueur): self
-    {
-        $this->joueur->removeElement($joueur);
-
-        return $this;
     }
 
 }

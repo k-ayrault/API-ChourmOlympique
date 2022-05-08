@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * Club
@@ -15,6 +16,7 @@ class Club
     /**
      * @var int
      *
+     * @Groups({"club"})
      * @ORM\Column(name="id", type="integer", nullable=false)
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="IDENTITY")
@@ -24,6 +26,7 @@ class Club
     /**
      * @var string
      *
+     * @Groups({"club"})
      * @ORM\Column(name="nom", type="string", length=255, nullable=false)
      */
     private $nom;
@@ -31,6 +34,7 @@ class Club
     /**
      * @var \DateTime
      *
+     * @Groups({"club"})
      * @ORM\Column(name="creation", type="date", nullable=false)
      */
     private $creation;
@@ -38,6 +42,7 @@ class Club
     /**
      * @var string|null
      *
+     * @Groups({"club"})
      * @ORM\Column(name="logo", type="string", length=255, nullable=true)
      */
     private $logo;
@@ -52,6 +57,7 @@ class Club
     /**
      * @var \Pays
      *
+     * @Groups({"club"})
      * @ORM\ManyToOne(targetEntity="Pays")
      * @ORM\JoinColumns({
      *   @ORM\JoinColumn(name="pays_id", referencedColumnName="id")

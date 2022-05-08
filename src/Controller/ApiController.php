@@ -41,6 +41,28 @@ class ApiController extends AbstractController
     }
 
     /**
+     * @Route("/joueur_du_jour/essai", name="api_joueur_du_jour_essai")
+     */
+    public function essai(JoueurDuJourRepository $joueurDuJourRepository, SerializerInterface $serializer): Response
+    {
+//        TODO : Va recevoir un id sûrement haché, va haché l'id du joueur du jour, et va vérifier si ces deux ids se correspondent
+//            Si ces deux sont égaux alors retourne gg sinon pas gg
+
+        return $this->json('');
+    }
+
+    /**
+     * @Route("/joueur_du_jour/indice", name="api_joueur_du_jour_start")
+     */
+    public function indice(JoueurDuJourRepository $joueurDuJourRepository, SerializerInterface $serializer): Response
+    {
+//        TODO : Va recevoir un id sûrement haché, va haché l'id du joueur du jour, et va vérifier si ces deux ids se correspondent
+//            Si ces deux sont égaux alors retourne gg sinon pas gg
+
+        return $this->json('');
+    }
+
+    /**
      * @Route("/joueur_du_jour/creer", name="api_creer_joueur_du_jour")
      */
     public function creer(JoueurDuJourRepository $joueurDuJourRepository, JoueurRepository $joueurRepository) : Response
@@ -66,4 +88,5 @@ class ApiController extends AbstractController
 
         return $this->json($retour);
     }
+
 }

@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * Contrat
@@ -24,6 +25,7 @@ class Contrat
     /**
      * @var \DateTime
      *
+     * @Groups({"contrat"})
      * @ORM\Column(name="debut", type="date", nullable=false)
      */
     private $debut;
@@ -31,6 +33,7 @@ class Contrat
     /**
      * @var \DateTime
      *
+     * @Groups({"contrat"})
      * @ORM\Column(name="fin", type="date", nullable=false)
      */
     private $fin;
@@ -38,6 +41,7 @@ class Contrat
     /**
      * @var string|null
      *
+     * @Groups({"contrat"})
      * @ORM\Column(name="detail_transfert", type="string", length=255, nullable=true)
      */
     private $detailTransfert;
@@ -52,6 +56,7 @@ class Contrat
     /**
      * @var \Club
      *
+     * @Groups({"contrat"})
      * @ORM\ManyToOne(targetEntity="Club")
      * @ORM\JoinColumns({
      *   @ORM\JoinColumn(name="club_id", referencedColumnName="id")

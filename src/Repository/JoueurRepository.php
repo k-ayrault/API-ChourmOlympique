@@ -67,6 +67,35 @@ class JoueurRepository extends ServiceEntityRepository
         return $resultSet->fetchOne();
     }
 
+    /**
+     * @return Joueur[] Returns an array of Joueur objects
+     */
+    public function findRandomJoueur()
+    {
+        $conn = $this->getEntityManager()->getConnection();
+
+        $sql = '
+            SELECT  j.id FROM joueur j
+            ORDER BY RAND()
+            LIMIT 1;
+            ';
+        $stmt = $conn->prepare($sql);
+        $resultSet = $stmt->executeQuery();
+
+        return $resultSet->fetchOne();
+    }
+
+    /**
+     */
+    public function findJoueursEssais($text)
+    {
+        return $this->createQueryBuilder('j')
+            ->where('CONCAT(j.nom, \' \', j.prenom) LIKE :text')
+            ->setParameter('text', '%'.$text.'%')
+            ->getQuery()
+            ->getArrayResult()
+            ;
+    }
 
     /*
     public function findOneBySomeField($value): ?Joueur

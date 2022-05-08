@@ -51,46 +51,5 @@ class JoueurCompositionProbable
      */
     private $poste;
 
-    public function getId(): ?int
-    {
-        return $this->id;
-    }
-
-    public function getCompositionProbable(): ?CompositionProbable
-    {
-        return $this->compositionProbable;
-    }
-
-    public function setCompositionProbable(?CompositionProbable $compositionProbable): self
-    {
-        $this->compositionProbable = $compositionProbable;
-
-        return $this;
-    }
-
-    public function getJoueur(): ?Joueur
-    {
-        return $this->joueur;
-    }
-
-    public function setJoueur(?Joueur $joueur): self
-    {
-        $this->joueur = $joueur;
-
-        return $this;
-    }
-
-    public function getPoste(): ?PosteFormation
-    {
-        return $this->poste;
-    }
-
-    public function setPoste(?PosteFormation $poste): self
-    {
-        $this->poste = $poste;
-
-        return $this;
-    }
-
 
 }
