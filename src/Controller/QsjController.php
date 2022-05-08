@@ -30,7 +30,7 @@ class QsjController extends AbstractController
 
         return $this->json($res);
     }
-//  6276be368dc09
+
     /**
      * @Route("/essai", name="qsj_essai")
      */
