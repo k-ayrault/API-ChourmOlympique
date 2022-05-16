@@ -17,7 +17,6 @@ class QuiSuisJe
      *
      * @ORM\Column(name="id_utilisateur", type="string", length=15, nullable=false)
      * @ORM\Id
-     * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $idUtilisateur;
 
