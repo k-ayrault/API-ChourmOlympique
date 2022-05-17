@@ -76,6 +76,9 @@ class JoueurRepository extends ServiceEntityRepository
 
         $sql = '
             SELECT  j.id FROM joueur j
+			JOIN contrat c ON c.joueur_id = j.id
+			GROUP BY j.id
+            HAVING COUNT(c.id) > 1
             ORDER BY RAND()
             LIMIT 1;
             ';

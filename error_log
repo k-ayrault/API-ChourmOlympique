@@ -1,0 +1,1 @@
+[17-May-2022 11:39:01 UTC] 2022-05-17T11:39:01+00:00 [info] User Deprecated: The "Symfony\Bridge\Doctrine\Logger\DbalLogger" class implements "Doctrine\DBAL\Logging\SQLLogger" that is deprecated Use {@see \Doctrine\DBAL\Logging\Middleware} or implement {@see \Doctrine\DBAL\Driver\Middleware} instead.
