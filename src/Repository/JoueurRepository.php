@@ -96,8 +96,8 @@ class JoueurRepository extends ServiceEntityRepository
             ->where('CONCAT(j.nom, \' \', j.prenom) LIKE :text')
             ->setParameter('text', '%'.$text.'%')
             ->getQuery()
-            ->getArrayResult()
-            ;
+            ->setMaxResults( 4 )
+            ->getArrayResult();
     }
 
     /*

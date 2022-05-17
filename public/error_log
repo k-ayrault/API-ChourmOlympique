@@ -4366,3 +4366,191 @@
 
 [17-May-2022 12:06:51 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
 
+[17-May-2022 12:07:21 UTC] [info] Matched route "qsj_indice".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[17-May-2022 12:07:21 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[17-May-2022 12:07:53 UTC] [info] Matched route "qsj_indice".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[17-May-2022 12:07:53 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[17-May-2022 12:08:25 UTC] [info] Matched route "qsj_indice".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[17-May-2022 12:08:25 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[17-May-2022 12:08:28 UTC] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET https://api.chourmolympique.fr/"" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[17-May-2022 12:08:28 UTC] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[17-May-2022 12:08:28 UTC] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[17-May-2022 12:08:28 UTC] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[17-May-2022 12:18:09 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:09 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:09 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:09 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:10 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:10 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:10 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:10 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:11 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:11 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:11 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:11 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:12 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:12 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:19 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:19 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:19 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:19 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:19 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:19 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:19 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:19 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:19 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:20 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:20 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:20 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:20 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
+[17-May-2022 12:18:20 UTC] [critical] Uncaught PHP Exception Error: "Call to a member function setMaxResults() on array" at /home/u807380454/domains/chourmolympique.fr/ChourmOlympiqe/public/API-ChourmOlympique/src/Repository/JoueurRepository.php line 100
+
